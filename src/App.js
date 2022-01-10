@@ -1,8 +1,8 @@
-import {Container} from './components/styles/Container.styled'
+import {Container} from './components/styles/Invisible.styled'
 import {ThemeProvider} from 'styled-components'
 import Header from './components/Header.js'
+import MainFrame from './components/MainFrame'
 import GlobalStyles from './components/styles/Global'
-
 
 const theme = {
   colors: {
@@ -19,6 +19,7 @@ function App() {
           <GlobalStyles />
           <Header />
           <Container>
+            <MainFrame/>
           </Container>
         </>
     </ThemeProvider>
