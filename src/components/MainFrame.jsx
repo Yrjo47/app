@@ -1,4 +1,10 @@
-<svg width="956" height="956" viewBox="0 0 956 956" fill="none" xmlns="http://www.w3.org/2000/svg">
+import { Container, Flex } from './styles/Invisible.styled'
+import {StyledSVG, StyledMainFrame } from './styles/MainFrame.styled'
+
+export default function MainFrame() {
+    return (
+        <StyledMainFrame>
+            <StyledSVG width="956" height="956" viewBox="0 0 956 956" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Earth22">
 <g id="RotateBlock">
 <g id="Fleet">
@@ -115,4 +121,14 @@
 </g>
 </g>
 </g>
-</svg>
+            </StyledSVG>
+
+
+
+
+
+        </StyledMainFrame>
+    )
+}
+
+

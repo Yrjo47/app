@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const StyledHeader = styled.header`
     background-color: ${({theme}) => theme.colors.header};
@@ -10,14 +11,15 @@ export const StyledHeader = styled.header`
     }
 `
 
-export const LoginBtn = styled.button`
+export const LoginBtn = styled(Link)`
     position: absolute;
     right: 0;
     color: #fff;
-    background-color: #000;
+    text-decoration: none;
     border: 2px #fff solid;
     border-radius: 10%;
     font-size: 2rem;
     cursor: pointer;
     margin: 32px;
+    padding: 4px 8px;
 `

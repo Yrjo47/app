@@ -1,6 +1,7 @@
+import { LoginPageStyled, LoginFormStyled } from "./styles/LoginPage.styled";
+import { Flex, Container } from './styles/Invisible.styled'
 
-
-export const LoginPage = () => {
+const LoginPage = () => {
     return (
         <LoginPageStyled>
             <LoginFormStyled>
@@ -9,3 +10,5 @@ export const LoginPage = () => {
         </LoginPageStyled>
     )
 }
+
+export default LoginPage;
