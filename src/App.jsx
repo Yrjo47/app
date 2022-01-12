@@ -1,4 +1,3 @@
-import {Container} from './components/styles/Invisible.styled'
 import {ThemeProvider} from 'styled-components'
 import Header from './components/Header.jsx'
 import GlobalStyles from './components/styles/Global'
@@ -17,10 +16,7 @@ function App() {
     <ThemeProvider theme = {theme}>
         <>
           <GlobalStyles />
-          <Header />
-          <Container>
             <Router/>
-          </Container>
         </>
     </ThemeProvider>
   );

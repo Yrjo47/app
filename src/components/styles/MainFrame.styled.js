@@ -7,7 +7,6 @@ export const StyledMainFrame = styled(Flex)`
 `
 
 export const StyledSVG = styled.svg`
-    width: 720px;
     overflow: visible; 
     #RotateBlock{
         animation: 60s linear infinite fullrotate;
